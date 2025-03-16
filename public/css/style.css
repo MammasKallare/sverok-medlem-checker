@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  font-size: 18px; /* Öka grundstorleken på text */
+}
+
+.container {
+  width: 100%;
+  max-width: 800px; /* Gör containern bredare */
+  margin: 50px auto;
+  padding: 30px; /* Öka padding för mer luft runt innehållet */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px; /* Större rubrik */
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 22px; /* Större etiketttext */
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px; /* Större padding för inputfältet */
+  font-size: 20px; /* Större text inuti inputfältet */
+  margin-bottom: 20px; /* Mer utrymme mellan input och knappen */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 15px; /* Större padding för knappen */
+  font-size: 20px; /* Större text på knappen */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#status-text {
+  font-size: 22px; /* Större text för resultatmeddelanden */
+  font-weight: bold;
+}

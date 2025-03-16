@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Config files
+config.js  # För att undvika att känslig information läcker till Git
+
+# Build outputs
+/dist
+/build
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# .env files
+.env

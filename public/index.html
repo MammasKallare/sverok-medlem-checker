@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medlemskap Kontroll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kontrollera Medlemskap</h1>
+        <form id="membership-form">
+            <label for="identifier">Ange Personnummer eller Namn:</label>
+            <input type="text" id="identifier" name="identifier" placeholder="Personnummer eller Förnamn Efternamn" required />
+            <button type="submit">Kontrollera</button>
+        </form>
+        <div id="result">
+            <p id="status-text"></p>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
