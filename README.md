@@ -35,6 +35,15 @@ För att köra projektet lokalt på din dator, följ stegen nedan:
    npm install
    ```
 
+4. Uppdatera konfig
+   Gå in i filen config.js och lägg in föreningsnummer och API-nyckel. API-nyckel skapar du i Ebas.
+   ```js
+   module.exports = {
+    apiKey: 'Er API-nyckel', // Er API-nyckel
+    associationNumber: 'Er F-nummer', // Er föreningsnummer
+   };
+   ```
+
 4. Starta servern:
    Om du använder Node.js-servern kan du starta den med:
    ```bash
